@@ -5,6 +5,7 @@ pipeline {
         stage('Checkout'){
             steps{
                 git branch: 'main', url: 'https://github.com/Daniyar-1/Ulultrip-front.git'
+                echo 'test'
                 echo 'Checkout Completed'
             }
         }
