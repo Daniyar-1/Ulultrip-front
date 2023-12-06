@@ -1,0 +1,55 @@
+
+.editProfile{
+  margin: 0 auto;
+}
+.form{
+  padding: 30px;
+  margin: 50px auto ;
+  text-align: center;
+}
+.text_form{
+  margin-bottom: 15px;
+}
+.cross_parent{
+  width: 35px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 13px;
+  right: 1px;
+}
+.cross_parent:hover{
+  background: #EFF1F4;
+  border-radius: 8px;
+}
+
+.croos_ulul{
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  top: 13px;
+  right: 1px;
+  transition: 500ms;
+}
+.croos_ulul:hover{
+  transform: rotate(-90deg);
+}
+.all_inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form button{
+  min-width: 200px;
+    height: 60px;
+    background: #FF6F32;
+    border-radius: 12px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0px;
+    color: #FFFFFF;
+}

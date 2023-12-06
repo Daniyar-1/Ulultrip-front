@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+@media  screen and (max-width:1080px){
+   .header{
+    min-width: 1200px;
+   }
+}
+.header{
+  background:#0C73FE;
+}
+/****header****/
+.container{
+  width: 1060px;
+  margin: 0 auto;
+  height: 509px;
+}
+@media  screen and (max-width:1080px){
+  .container{
+    width:800px;
+    margin: 0 auto;
+  }
+}
+@media  screen and (max-width:700px){
+  .container{
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+/****conatiner****/
+.headerinfo{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 19px;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+}
+.info h3{
+  color: #fff;
+  font-size: 24px;
+}
+.messages {
+  display:flex;
+  align-items: center;
+}
+.messages p {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media screen and (max-width:1080px){
+  .heplinfo p { 
+     font-size: 23px;
+     color: #fff;
+  }
+}
+@media screen and (max-width:700px){
+  .heplinfo p { 
+     font-size: 20px;
+     width: 500px;
+     color: #fff;
+  }
+}
+.heplinfo{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 25px;
+  margin-top: 80px;
+  width: 743px;
+  height: 152px;
+}
+.heplinfo h1{
+  color: #fff;
+  font-size: 64px;
+  line-height: 75px;
+}
+.helpinfo p {
+  color: #fff;
+  width: 716px;
+  height: 52px;
+  font-size: 22px;
+  line-height: 26px;
+}

@@ -1,0 +1,19 @@
+version: '3'
+services:
+  ulultrip-front:
+    tty: true
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    env_file:
+      - ./.env
+    volumes:
+      - .:/app/front
+    networks:
+      - front-network
+
+networks:
+  front-network:
+    driver: bridge

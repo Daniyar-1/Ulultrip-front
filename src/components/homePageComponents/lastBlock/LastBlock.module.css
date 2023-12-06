@@ -1,0 +1,12 @@
+.last_block{
+    background-color: #ffffff;
+}
+.container{
+    width: 1060px;
+    margin: 0 auto;
+}
+.last_inner{
+    display: flex;
+    padding-top: 137px;
+    padding-bottom: 100px;
+}
